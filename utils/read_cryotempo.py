@@ -6,14 +6,14 @@
 # usage: python read_cryotempo_points.py ./input/path/*.nc -o /output/path/dir -n 4
 # undo: functions for reading the other type of cryotempo data.
 
-from astropy.time import Time
-import argparse
-from joblib import Parallel, delayed
-from astropy.time import Time
-import netCDF4 as nc
 import os
 import h5py
+import argparse
 import pandas as pd
+import netCDF4 as nc
+from astropy.time import Time
+from joblib import Parallel, delayed
+from astropy.time import Time
 
 ### convert time (second format) to decimal year
 def second_to_dyr(time_second, time_start='2000-01-01 00:00:00.0'):

@@ -1,5 +1,5 @@
 # radar-altimetry-tool
-Toolbox for radar altimetry products (sentinel-3, jason-1/2/3, cryosat-2, et al.) processing
+Toolbox for radar altimetry products (sentinel-3, jason-1/2/3, cryosat-2, et al.) processing. it is worthy noting that the developed tool applicable for radar altimetry data except for the **SWOT** altimetry data.
 
 ## 1. Introduction
 This repository is built for the radar/sar altimetry data processing. this repository contains folders as follows:
