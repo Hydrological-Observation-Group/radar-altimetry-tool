@@ -1,3 +1,7 @@
+# author: luo xin, 
+# creat: 2025-11-05
+# des: Time formats conversions. year-month-day, day-of-year, decimal year, etc.
+
 import numpy as np
 from astropy.time import Time
 
